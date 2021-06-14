@@ -1,0 +1,41 @@
+body{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    max-width: 2400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: 28px;
+    color:  #fff;
+    background-color: #152238;
+    font-family: Arial,sans-serif;
+}
+
+button{
+    font-size: inherit;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 200px;
+    line-height: 60px;
+    border-radius: 5px;
+    color: inherit;
+}
+.container{
+    width: 100%;
+    padding: 0 140px;
+    margin: 0 auto;
+}
+
+#root{
+    height: 100%;
+}
+
+.app{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1 0 auto;
+}

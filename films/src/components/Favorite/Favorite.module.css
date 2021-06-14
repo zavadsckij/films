@@ -1,0 +1,9 @@
+.favorite{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.favorite h1 {
+    color: #000;
+}

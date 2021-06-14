@@ -1,0 +1,36 @@
+.footer{
+    padding: 80px 0 50px;
+    color: rgba(94, 91, 91, .8);
+    flex: 0 0 auto;
+}
+.footer a{
+    text-decoration: none;
+    color: inherit;
+}
+.links a{
+    margin-right: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social > div{
+    width: 33%;
+}
+.social_links{
+    text-align: right;
+}
+.social_links svg{
+    font-size: 40px;
+    margin: 0 10px;
+}
+.footer_title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0aaee4;
+}
+.copy{
+    text-align: center;
+    margin-top: 60px;
+}

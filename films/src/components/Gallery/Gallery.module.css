@@ -1,0 +1,62 @@
+.sort {
+    color: #0aaee4;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.sortItems {
+    position: relative;
+}
+
+.modal_visible {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(100%);
+    z-index: 3;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.modal_hidden {
+    display: none;
+}
+
+.sortItems span {
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 28px;
+    padding-bottom: 10px;
+    transition: all ease-out .3s;
+}
+
+.sortItems span svg {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+.active {
+    font-weight: 700;
+    border-bottom: 2px solid #0aaee4;
+}
+
+.view_item {
+    font-size: 50px !important;
+    color: #ccc !important;
+}
+
+.view_item_active {
+    font-size: 50px !important;
+    color: #0aaee4 !important;
+}
+
+.films {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}

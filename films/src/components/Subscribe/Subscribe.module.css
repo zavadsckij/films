@@ -1,0 +1,19 @@
+.subscribe{
+    width: 100%;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+.subscribe h3{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 86px;
+    width: 50%;
+}
+.subscribe button{
+    background-color:  #0aaee4;
+    border: transparent;
+}

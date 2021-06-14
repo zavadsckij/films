@@ -1,0 +1,38 @@
+.pageFilm{
+    padding: 100px 0;
+    color: #ccc;
+    background-color: rgba(11, 15, 48, 0.9);
+}
+h1{
+font-size: 50px;
+text-align: center;
+line-height: 70px;
+}
+.film{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.film img{
+    width: 20%;
+    object-fit: cover;
+}
+.filmInfo{
+    width: 75%;
+}
+.filmInfo p{
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.video{
+    width: 100%;
+    margin: 50px 0;
+}
+.player{
+    width: 100% !important;
+    height: 600px !important;
+}
+.player iframe{
+    width: 100%;
+     height: 100%;
+}
